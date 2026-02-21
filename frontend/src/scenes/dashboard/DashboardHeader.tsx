@@ -486,7 +486,6 @@ export function DashboardHeader(): JSX.Element | null {
                                         setDashboardMode(null, DashboardEventSource.DashboardHeaderDiscardChanges)
                                     }
                                     size="small"
-                                    tabIndex={9}
                                 >
                                     Cancel
                                 </LemonButton>
@@ -504,7 +503,6 @@ export function DashboardHeader(): JSX.Element | null {
                                             setDashboardMode(null, DashboardEventSource.DashboardHeaderSaveDashboard)
                                         }
                                         size="small"
-                                        tabIndex={10}
                                         disabledReason={
                                             dashboardLoading
                                                 ? 'Wait for dashboard to finish loading'
