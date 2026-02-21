@@ -1,11 +1,9 @@
 import { useActions, useValues } from 'kea'
 
-import { IconEllipsis, IconSearch } from '@posthog/icons'
+import { IconSearch } from '@posthog/icons'
 
 import { FEATURE_FLAGS } from 'lib/constants'
-import { useFeatureFlag } from 'lib/hooks/useFeatureFlag'
-import { LemonButton } from 'lib/lemon-ui/LemonButton'
-import { LemonMenu, LemonMenuSection } from 'lib/lemon-ui/LemonMenu'
+import { LemonMenuSection } from 'lib/lemon-ui/LemonMenu'
 import { LemonSwitch } from 'lib/lemon-ui/LemonSwitch'
 import { Link } from 'lib/lemon-ui/Link'
 import { featureFlagLogic } from 'lib/logic/featureFlagLogic'
